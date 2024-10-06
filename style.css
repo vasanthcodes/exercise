@@ -97,6 +97,7 @@ h6{
   justify-content: space-between;
   border-radius: 20px;
   min-width: 400px;
+  flex-wrap: nowrap;
 }
 .mb3-2 div, .mb3-1 div{
   justify-content: space-between;
