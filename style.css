@@ -41,6 +41,8 @@ h1 {
   background-color: white;
   border-radius: 20px;
   padding: 10px 5px;
+  font-weight: bold;
+  font-style: 'Poppins';
 }
 .body2 {
   display: flex;
@@ -53,7 +55,7 @@ h1 {
   background-image: url(./images/yoga\ women.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: auto 360px
+  background-size: auto 360px;
 }
 h6{
     border: 1px solid grey;
@@ -82,10 +84,10 @@ h6{
 .mb3-1, .mb3-2 {
   display: flex;
   justify-content: space-between;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: beige;
   flex-grow: 2;
-  padding:10px;
+  padding:20px;
   }
 .mb3-3{
   display: flex;
@@ -93,6 +95,8 @@ h6{
   padding: 10px;
   background-color: beige;
   justify-content: space-between;
+  border-radius: 20px;
+  min-width: 400px;
 }
 .mb3-2 div, .mb3-1 div{
   justify-content: space-between;
@@ -101,7 +105,17 @@ h6{
   /* flex: 1; */
   align-self: flex-start;
   padding: 5px 5px;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.356);
+  font-weight: bold;
+  font-style: 'Roboto';
+}
+#fl{
+  color: aliceblue;
+  border-radius: 0px;
+  align-self: flex-end;
+  justify-self: flex-start;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
 }
 .mb3-3 .div1{
   justify-content: space-between;
@@ -113,7 +127,8 @@ h6{
   }
   #spd{
     justify-items: flex-end;
-    
-  }
+    padding-bottom: 20px;
+    min-width: 300px
+    }
   
 
